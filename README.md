@@ -1,6 +1,6 @@
 # TodoIst-Exporter
 
-This project will export all TodoIst data into a single json file.
+This python application will export all projects and tasks from TodoIst into a single json file.
 
 ### Install instructions
 - create an API token in the integration setting -> https://app.todoist.com/app/settings/integrations/developer
@@ -11,12 +11,12 @@ This project will export all TodoIst data into a single json file.
 
 ### Run instructions
 - create a virtual environment in project folder
-    - python -m venv myenv
+    - ```python -m venv myenv```
     - activate virtual environment 'myenv'
-        - windows: myenv\Scripts\activate
-        - mac/linux: source myenv/bin/activate
+        - windows: ```myenv\Scripts\activate```
+        - mac/linux: ```source myenv/bin/activate```
     - install requirements
-        - pip install -r requirements.txt
+        - ```pip install -r requirements.txt```
 
 - run ```python todoist_exporter.py``` in project folder inside virtual environment 'myenv'
 
