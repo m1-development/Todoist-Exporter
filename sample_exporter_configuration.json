@@ -1,0 +1,5 @@
+{
+  "todoist_token": "YOUR_TOKEN",
+  "export_directory": "C:\\Users\\User\\Documents\\TodoIst_Export",
+  "download_attachments": true
+}
